@@ -1,5 +1,7 @@
 # ASCII Webcam
 
+Lien du repo original : https://github.com/michael-dm/ascii-webcam
+
 Explication de l'erreur : 
 
 En Python, l'indentation (les espaces au début de chaque ligne) ne sont pas juste une question de lisibilité — c'est une règle syntaxique stricte. Python l'utilise pour comprendre la structure du code (ce qui est dans une fonction, dans une boucle, etc.). Le problème est qu'il existe deux façons d'indenter : avec la touche Tab ou avec des espaces. Ces deux caractères sont invisibles dans la plupart des éditeurs, ils semblent identiques à l'œil nu. Mais pour Python, ce sont des caractères complètement différents, et les mélanger dans un même fichier provoque une TabError. 
